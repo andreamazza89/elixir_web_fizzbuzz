@@ -1,0 +1,19 @@
+<!DOCTYPE HTML> 
+<html> 
+  <head>  
+    <title>Elixir FizzBuzz</title> 
+  </head> 
+
+  <body> 
+
+    <h1>Welcome to FizzBuzz</h1> 
+
+     <form action="fizzbuzz" method="get">
+      Please enter a number to see if it Fizzes or Buzzes:<br>
+      <input type="text" name="input"> <%= result %>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+
+  </body> 
+</html>
